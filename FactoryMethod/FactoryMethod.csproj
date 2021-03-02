@@ -43,12 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AcousticGuitar.cs" />
-    <Compile Include="AcousticGuitarFactory.cs" />
-    <Compile Include="ElectricGuitarFactory.cs" />
-    <Compile Include="GuitarFactory.cs" />
-    <Compile Include="ElectricGuitar.cs" />
-    <Compile Include="IGuitar.cs" />
+    <Compile Include="Product\AcousticGuitar.cs" />
+    <Compile Include="Factory\AcousticGuitarFactory.cs" />
+    <Compile Include="Factory\ElectricGuitarFactory.cs" />
+    <Compile Include="Factory\GuitarFactory.cs" />
+    <Compile Include="Product\ElectricGuitar.cs" />
+    <Compile Include="Product\IGuitar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
