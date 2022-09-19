@@ -26,7 +26,7 @@ namespace FactoryMethod
                     break;
             }
 
-            Console.WriteLine(guitarFactory.GetGuitar());
+            Console.WriteLine(guitarFactory.CreateGuitar());
         }
     }
 }

@@ -20,7 +20,7 @@ namespace FactoryMethod
         /// Overridden base class method that returns an object.
         /// </summary>
         /// <returns> New acoustic guitar object. </returns>
-        public override IGuitar GetGuitar()
+        public override IGuitar CreateGuitar()
         {
             return new AcousticGuitar(_name, _price);
         }

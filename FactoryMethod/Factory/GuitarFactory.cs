@@ -9,6 +9,6 @@
         /// Factory method.
         /// </summary>
         /// <returns> Creates new objects. </returns>
-        public abstract IGuitar GetGuitar();
+        public abstract IGuitar CreateGuitar();
     }
 }
