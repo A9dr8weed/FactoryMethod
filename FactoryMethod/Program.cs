@@ -18,13 +18,14 @@ namespace FactoryMethod
 
             switch (guitar.ToLower())
             {
-                case "a":
+                case "Cort":
                     guitarFactory = new ElectricGuitarFactory("Cort", 4000);
                     break;
-                case "b":
+                case "Fender":
                     guitarFactory = new AcousticGuitarFactory("Fender", 5000);
                     break;
             }
+
             Console.WriteLine(guitarFactory.GetGuitar());
         }
     }
